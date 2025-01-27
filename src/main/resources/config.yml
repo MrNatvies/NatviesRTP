@@ -1,0 +1,33 @@
+# Настройки RTP плагина
+spawnTeleportTargetWorld: "world"
+
+# Радиусы для команд
+rtpdefault:
+  minRadius: 100
+  maxRadius: 1000
+
+rtpfar:
+  minRadius: 1000
+  maxRadius: 5000
+
+rtpnear:
+  minOffset: 10
+  maxOffset: 100
+
+# Сообщения
+messages:
+  reloadSuccess: "&aConfiguration reloaded."
+  noPermission: "&cYou do not have permission to execute this command."
+  onlyPlayer: "&cThis command can only be executed by a player."
+  invalidWorld: "&cYou cannot use this command in this world."
+  targetWorldNotExist: "&cThe target world '&e%world%&c' does not exist."
+  worldNotExist: "&cThe world '&eworld&c' does not exist."
+  noPlayersInWorld: "&cThere are no other players in the world '&eworld&c'."
+  teleportSuccess: "&aTeleported to: &e%x%, %y%, %z%."
+
+# Права доступа
+permissions:
+  rtpdefault: "natviesrtp.rtpdefault"
+  rtpfar: "natviesrtp.rtpfar"
+  rtpnear: "natviesrtp.rtpnear"
+  reload: "natviesrtp.reload"

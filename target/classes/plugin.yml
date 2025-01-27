@@ -1,0 +1,19 @@
+name: NatviesRTP
+version: 1.0
+main: com.example.natviesrtp.NatviesRTP
+author: MrNatvies
+description: Плагин для случайной телепортации игроков.
+commands:
+  natviesrtp:
+    description: Перезагружает конфигурацию плагина
+    usage: /natviesrtp reload
+  rtpdefault:
+    description: Телепортирует игрока на случайное расстояние (100–500 блоков).
+    usage: /rtpdefault
+  rtpfar:
+    description: Телепортирует игрока на большое случайное расстояние (1000–5000 блоков).
+    usage: /rtpfar
+  rtpnear:
+    description: Телепортирует игрока рядом с другим игроком (в пределах 100 блоков).
+    usage: /rtpnear
+
